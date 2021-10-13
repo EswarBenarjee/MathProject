@@ -53,11 +53,10 @@ body {
   top: 200px;
 }
 
-#end {
-  position: absolute;
+/* #end {
   bottom: 30px;
   left: 560px;
-}
+} */
 
 .btn {
   background: #3498db;
