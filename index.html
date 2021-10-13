@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body> <center>
+    <button type="button" id="start" class="btn" onclick="display()">Start Game</button>
+    <div id="main">
+      <div class="time">
+        Time Left: <span id="time">30</span>seconds
+      </div>
+
+      <div class="score">
+        Score: <span id="score">0</span>pts
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="sum">
+        <h1> <span id="leftop">7</span> <span id="operand">*</span> <span id="rightop">3</span> </h1>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div id="answer0" class="ans" onclick="check(this.id)">
+        <span id="ans0">20</span>
+      </div>
+
+      <div id="answer1" class="ans" onclick="check(this.id)">
+        <span id="ans1">19</span>
+      </div>
+
+      <div id="answer2" class="ans" onclick="check(this.id)">
+        <span id="ans2">21</span>
+      </div>
+
+      <div id="answer3" class="ans" onclick="check(this.id)">
+        <span id="ans3">22</span>
+      </div>
+
+      <button type="button" id="end" class="btn" onclick="reset()">Reset Game</button>
+    </div>
+
+    <div id="over">
+      <h1>Game Over</h1>
+      Score: <span id="scoreOver"></span> <br><br><br>
+      <button type="button" class="btn" onclick="location.reload();">Re Start Game</button>
+    </div>
+    </center>
+  </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
