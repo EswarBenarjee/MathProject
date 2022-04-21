@@ -1,12 +1,12 @@
 body {
-  background-color: powderblue;
+  background-color: #A85CF9;
   padding-top: 30px;
 }
 
 .time, .sum, .score, .ans {
   -moz-box-shadow: 10px 10px 16px #000000;
   -webkit-box-shadow: 10px 10px 16px #000000;
-  box-shadow: 10px 10px 16px #000000;
+  box-shadow: 2px 2px 5px #000000;
 }
 
 #main, #over {
@@ -23,7 +23,7 @@ body {
 }
 
 .score {
-  background-color: Yellow;
+  background-color: #83BD75;
   border: 100px;
   float: right;
   padding: 50px;
@@ -32,7 +32,7 @@ body {
 }
 
 .sum {
-  background-color: Purple;
+  background-color: #FF6363;
   padding: 50px 100px;
   letter-spacing: 50px;
   width: 60%;
