@@ -14,7 +14,7 @@ body {
 }
 
 .time {
-  background-color: Green;
+  background-color: #83BD75;
   border: 50px;
   float: left;
   padding: 40px 50px 60px 50px;
@@ -23,7 +23,7 @@ body {
 }
 
 .score {
-  background-color: #83BD75;
+  background-color: Yellow;
   border: 100px;
   float: right;
   padding: 50px;
